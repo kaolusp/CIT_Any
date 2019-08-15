@@ -76,19 +76,16 @@
             <dict>   
 
                 <key>input_path</key>   
-                <string>%pathname%/slack*.app</string>
 
                 <string>%pathname%/Slack*.app</string>
 
                 <key>expected_authority_names</key>
 
                 <array>
-                    <string>Developer ID Installer: Google, Inc. (BQR82RBBHL)</string>
 
                     <string>Developer ID Installer: Slack Technologies, Inc. (BQR82RBBHL)</string>
 
                     <string>Developer ID Certification Authority</string>
-                    <string>Apple Root CA</string> 
 
                     <string>Apple Root CA</string>
 
