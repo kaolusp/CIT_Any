@@ -7,14 +7,14 @@
     <key>Identifier</key>
     <string>com.github.autopkg.download.Slack</string>
     <key>Input</key>
- <dict>
+    <dict>
         <key>NAME</key>
         <string>Slack</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>
- </dict>
-  <array>
-    <dict>
+        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>]
+    </dict>
+    <array>
+        <dict>
             <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
@@ -23,22 +23,23 @@
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
+        </dict>
             </dict>
-    </dict>
-     <dict>   
+                <dict>   
             <key>Processor</key>   
             <string>CodeSignatureVerifier</string>   
             <key>Arguments</key>   
-            <dict>   
+                    <dict>   
                 <key>input_path</key>   
                 <string>%pathname%/slack*.app</string>
                 <key>expected_authority_names</key>
                 <array>
                     <string>Developer ID Installer: Google, Inc. (BQR82RBBHL)</string>
                     <string>Developer ID Certification Authority</string>
-                    <string>Apple Root CA</string>        
-            </dict>
-    </dict>
- </array>
+                    <string>Apple Root CA</string> 
+                </array>
+                    </dict>
+                </dict>
+    </array>
 </dict>
 </plist>
