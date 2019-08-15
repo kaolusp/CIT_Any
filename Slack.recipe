@@ -13,8 +13,7 @@
         <key>DOWNLOAD_URL</key>
         <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>
  </dict>
- 
-    <array>
+  <array>
     <dict>
             <key>Processor</key>
             <string>URLDownloader</string>
@@ -26,7 +25,6 @@
                 <string>%NAME%.dmg</string>
             </dict>
     </dict>
-    
      <dict>   
             <key>Processor</key>   
             <string>CodeSignatureVerifier</string>   
@@ -40,6 +38,6 @@
                     <string>Developer ID Certification Authority</string>
                     <string>Apple Root CA</string>        
             </dict>
-        </dict>
-    </array>
+    </dict>
+ </array>
 </dict>
