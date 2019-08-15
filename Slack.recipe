@@ -80,8 +80,6 @@
 
                 <string>%pathname%/Slack*.app</string>
 
-                <key>expected_authority_names</key>
-
                 <array>
 
                     <string>Developer ID Installer: Slack Technologies, Inc. (BQR82RBBHL)</string>
