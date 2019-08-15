@@ -7,10 +7,12 @@
 <dict>
 
     <key>Description</key>
+    <string>Downloads the latest Slack</string>
 
     <string>Downloads the latest Slack.</string>
 
     <key>Identifier</key>
+    <string>com.github.autopkg.download.Slack</string>
 
     <string>com.github.autopkg.download.slack</string>
 
@@ -23,6 +25,7 @@
         <string>Slack</string>
 
         <key>DOWNLOAD_URL</key>
+        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>]
 
         <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>
 
@@ -53,8 +56,10 @@
                 <key>filename</key>
 
                 <string>%NAME%.dmg</string>
+        </dict>
 
             </dict>
+                <dict>   
 
         </dict>
 
@@ -73,157 +78,35 @@
             <string>CodeSignatureVerifier</string>   
 
             <key>Arguments</key>   
+                    <dict>   
 
             <dict>   
 
                 <key>input_path</key>   
+                <string>%pathname%/slack*.app</string>
 
                 <string>%pathname%/Slack*.app</string>
 
+                <key>expected_authority_names</key>
+
                 <array>
+                    <string>Developer ID Installer: Google, Inc. (BQR82RBBHL)</string>
 
                     <string>Developer ID Installer: Slack Technologies, Inc. (BQR82RBBHL)</string>
 
                     <string>Developer ID Certification Authority</string>
+                    <string>Apple Root CA</string> 
 
                     <string>Apple Root CA</string>
 
                 </array>
-
-            </dict>
-
-        </dict>
-
-             <dict>
-
-            <key>Processor</key>
-
-            <string>AppDmgVersioner</string>
-
-            <key>Arguments</key>
-
-            <dict>
-
-                <key>dmg_path</key>
-
-                <string>%pathname%</string>
-
-            </dict>
-
-        </dict>
-
-        <dict>
-
-            <key>Processor</key>
-
-            <string>PkgRootCreator</string>
-
-            <key>Arguments</key>
-
-            <dict>
-
-                <key>pkgroot</key>
-
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
-
-                <key>pkgdirs</key>
-
-                <dict>
-
-                    <key>Applications</key>
-
-                    <string>0775</string>
-
+                    </dict>
                 </dict>
 
             </dict>
 
         </dict>
 
-        <dict>
-
-            <key>Processor</key>
-
-            <string>Copier</string>
-
-            <key>Arguments</key>
-
-            <dict>
-
-                <key>source_path</key>
-
-                <string>%pathname%/VLC.app</string>
-
-                <key>destination_path</key>
-
-                <string>%pkgroot%/Applications/Slack.app</string>
-
-            </dict>
-
-        </dict>
-       
-              <dict>
-
-            <key>Processor</key>
-
-            <string>PkgCreator</string>
-
-            <key>Arguments</key>
-
-            <dict>
-
-                <key>pkgname</key>
-
-                <string>%NAME%-%version%</string>
-
-                <key>pkg_request</key>
-
-                <dict>
-
-                    <key>pkgdir</key>
-
-                    <string>%RECIPE_CACHE_DIR%</string>
-
-                    <key>id</key>
-
-                    <string>com.slack.pkg</string>
-
-                    <key>resources</key>
-
-                    <string>Resources</string>
-
-                    <key>options</key>
-
-                    <string>purge_ds_store</string>
-
-                    <key>chown</key>
-
-                    <array>
-
-                        <dict>
-
-                            <key>path</key>
-
-                            <string>Applications</string>
-
-                            <key>user</key>
-
-                            <string>root</string>
-
-                            <key>group</key>
-
-                            <string>admin</string>
-
-                        </dict>
-
-                    </array>
-
-                </dict>
-
-            </dict>
-
-        </dict>
-        
     </array>
 
 </dict>
