@@ -1,45 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
 <plist version="1.0">
+
 <dict>
+
     <key>Description</key>
-    <string>Downloads the latest Slack</string>
+
+    <string>Downloads the latest Slack.</string>
+
     <key>Identifier</key>
-    <string>com.github.autopkg.download.Slack</string>
+
+    <string>com.github.autopkg.download.slack</string>
+
     <key>Input</key>
+
     <dict>
+
         <key>NAME</key>
+
         <string>Slack</string>
+
         <key>DOWNLOAD_URL</key>
-        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>]
+
+        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>
+
     </dict>
+
+    <key>MinimumVersion</key>
+
+    <string>0.2.0</string>
+
+    <key>Process</key>
+
     <array>
+
         <dict>
+
             <key>Processor</key>
+
             <string>URLDownloader</string>
+
             <key>Arguments</key>
+
             <dict>
+
                 <key>url</key>
+
                 <string>%DOWNLOAD_URL%</string>
+
                 <key>filename</key>
+
                 <string>%NAME%.dmg</string>
-        </dict>
+
             </dict>
-                <dict>   
+
+        </dict>
+
+        <dict>
+
+            <key>Processor</key>
+
+            <string>EndOfCheckPhase</string>
+
+        </dict>
+
+        <dict>   
+
             <key>Processor</key>   
+
             <string>CodeSignatureVerifier</string>   
+
             <key>Arguments</key>   
-                    <dict>   
+
+            <dict>   
+
                 <key>input_path</key>   
-                <string>%pathname%/slack*.app</string>
+
+                <string>%pathname%/Slack*.app</string>
+
                 <key>expected_authority_names</key>
+
                 <array>
-                    <string>Developer ID Installer: Google, Inc. (BQR82RBBHL)</string>
+
+                    <string>Developer ID Installer: Slack Technologies, Inc. (BQR82RBBHL)</string>
+
                     <string>Developer ID Certification Authority</string>
-                    <string>Apple Root CA</string> 
+
+                    <string>Apple Root CA</string>
+
                 </array>
-                    </dict>
-                </dict>
+
+            </dict>
+
+        </dict>
+
     </array>
+
 </dict>
+
 </plist>
