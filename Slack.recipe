@@ -7,14 +7,12 @@
 <dict>
 
     <key>Description</key>
-    <string>Downloads the latest Slack</string>
 
     <string>Downloads the latest Slack.</string>
 
     <key>Identifier</key>
+    
     <string>com.github.autopkg.download.Slack</string>
-
-    <string>com.github.autopkg.download.slack</string>
 
     <key>Input</key>
 
@@ -25,9 +23,8 @@
         <string>Slack</string>
 
         <key>DOWNLOAD_URL</key>
+        
         <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>]
-
-        <string>https://downloads.slack-edge.com/mac_releases/Slack-3.0.0.dmg</string>
 
     </dict>
 
@@ -59,9 +56,6 @@
         </dict>
 
             </dict>
-                <dict>   
-
-        </dict>
 
         <dict>
 
@@ -77,8 +71,7 @@
 
             <string>CodeSignatureVerifier</string>   
 
-            <key>Arguments</key>   
-                    <dict>   
+            <key>Arguments</key>    
 
             <dict>   
 
@@ -100,12 +93,10 @@
                     <string>Apple Root CA</string>
 
                 </array>
-                    </dict>
+                   
                 </dict>
 
             </dict>
-
-        </dict>
 
     </array>
 
