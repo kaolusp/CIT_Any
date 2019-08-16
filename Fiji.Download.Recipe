@@ -16,18 +16,6 @@
 
     <key>Input</key>
 
-    <dict>
-
-        <key>NAME</key>
-
-        <string>Fiji</string>
-
-        <key>DOWNLOAD_URL</key>
-        
-        <string>https://downloads.imagej.net/fiji/latest/fiji-macosx.zip</string>
-
-    </dict>
-
     <key>MinimumVersion</key>
 
     <string>0.2.0</string>
@@ -35,29 +23,16 @@
     <key>Process</key>
 
     <array>
-
         <dict>
-
             <key>Processor</key>
-
-            <string>URLDownloader</string>
-
-            <key>Arguments</key>
-
-            <dict>
-
-                <key>url</key>
-
-                <string>%DOWNLOAD_URL%</string>
-
-                <key>filename</key>
-
-                <string>%NAME%.zip</string>
-        </dict>
-
-            </dict>
-
-        <dict>
+        <string>URLTextSearcher</string>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+				<string>https://imagej.net/Fiji/Downloads</string>
+				<key>re_pattern</key>
+				<string>Version (?P&lt;version&gt;[0-9a-z\.]*)</string>
+			</dict>
 
             <key>Processor</key>
 
