@@ -12,7 +12,7 @@
         <string>Slack</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>/Users/kspencer/Library/AutoPkg/RecipeRepos/com.github.kaolusp.CIT_Any/Slack.recipe</string>
+    <string>/Users/kspencer/Library/AutoPkg/RecipeRepos/com.github.kaolusp.CIT_Any/Slack.Download.recipe</string>
     <key>Process</key>
     <array>
         <dict>
