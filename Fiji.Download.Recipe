@@ -24,8 +24,7 @@
 
         <key>DOWNLOAD_URL</key>
         
-        <string>https://imagej.net/Fiji/Downloads
-https://downloads.imagej.net/fiji/latest/fiji-macosx.zip</string>
+        <string>https://downloads.imagej.net/fiji/latest/fiji-macosx.zip</string>
 
     </dict>
 
