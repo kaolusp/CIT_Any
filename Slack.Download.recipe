@@ -24,7 +24,7 @@
 
         <key>DOWNLOAD_URL</key>
         
-        <string>https://downloads.slack-edge.com/mac_releases/Slack-4.0.1macOS.dmg</string>
+        <string>https://downloads.slack-edge.com/mac_releases/Slack-4.0.1-macOS.dmg</string>
 
     </dict>
 
