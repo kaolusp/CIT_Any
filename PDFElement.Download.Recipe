@@ -77,7 +77,7 @@
 
                 <key>input_path</key>   
 
-                <string>%pathname%/Slack*.app</string>
+                <string>%pathname%/PDFelementStd6*.app</string>
                    
                 </dict>
 
