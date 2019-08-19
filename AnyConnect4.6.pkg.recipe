@@ -7,7 +7,7 @@
 	`-p path/to/dmg` option when running this recipe. Note this uses installer choices XML 
 	to disable all other components BESIDES vpn.</string>
 	<key>Identifier</key>
-	<string>com.github.kaolusp.munki.AnyConnect4</string>
+	<string>com.github.kaolusp.AnyConnect4</string>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>Input</key>
