@@ -15,9 +15,6 @@
 		<key>NAME</key>
 		<string>AnyConnect</string>
 	</dict>
-			<array>
-				<string>AnyConnect</string>
-			</array>
 			<key>installer_choices_xml</key>
 			<array>
 				<dict>
