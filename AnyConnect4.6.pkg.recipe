@@ -142,7 +142,7 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>AnyConnect4.6</string>
+                    <string>AnyConnect</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
