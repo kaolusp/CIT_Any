@@ -93,7 +93,7 @@
             <key>Arguments</key>
             <dict>
                 <key>dmg_path</key>
-                <string>%pathname%</string>
+                <string>/users/kspencer/desktop/anyconnect-macos-4.6.04056-predeploy-k9.dmg</string>
             </dict>
         </dict>
         <dict>
