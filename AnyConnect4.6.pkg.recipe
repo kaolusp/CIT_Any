@@ -142,11 +142,11 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>AnyConnect</string>
+                    <string>Cisco AnyConnect Secure Mobility Client</string>
                     <key>version</key>
-                    <string>%version%</string>
+                    <string>4.6.04056</string>
                     <key>id</key>
-                    <string>%bundleid%</string>
+                    <string>com.cisco.Cisco-AnyConnect-Secure-Mobility-Client</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
