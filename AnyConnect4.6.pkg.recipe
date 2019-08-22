@@ -27,7 +27,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
@@ -35,7 +35,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
@@ -43,7 +43,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
@@ -59,7 +59,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
@@ -67,7 +67,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
@@ -75,7 +75,7 @@
 				</dict>
 				<dict>
 					<key>attributeSetting</key>
-					<integer>0</integer>
+					<integer>1</integer>
 					<key>choiceAttribute</key>
 					<string>selected</string>
 					<key>choiceIdentifier</key>
