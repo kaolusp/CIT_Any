@@ -124,32 +124,7 @@
 	
 		<dict>
             <key>Processor</key>
-            <string>PkgCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_request</key>
-                <dict>
-                    <key>pkgname</key>
-                    <string>Cisco AnyConnect Secure Mobility Client</string>
-                    <key>version</key>
-                    <string>4.6.04056</string>
-                    <key>id</key>
-                    <string>com.cisco.Cisco-AnyConnect-Secure-Mobility-Client</string>
-                    <key>options</key>
-                    <string>purge_ds_store</string>
-                    <key>chown</key>
-                    <array>
-                        <dict>
-                            <key>path</key>
-                            <string>Applications</string>
-                            <key>user</key>
-                            <string>root</string>
-                            <key>group</key>
-                            <string>admin</string>
-                        </dict>
-                    </array>
-                </dict>
-            </dict>
+	    <string>AppPkgCreator</string>
         </dict>
 		
 	</array>
