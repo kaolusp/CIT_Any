@@ -85,7 +85,10 @@
 				
 
 	<key>Process</key>
-  
+  <dict>
+	  <key>app_path</key>
+	  <string>%PKG%</string>
+  </dict>
 	<array>
    <dict>
 			<key>Processor</key>
