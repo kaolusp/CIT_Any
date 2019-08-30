@@ -113,7 +113,6 @@
 		    		<dict>
 				<key>app_path</key>
 				<string>%app_path%</string>
-		</dict>
             <dict>
                 <key>pkg_request</key>
                 <dict>
@@ -139,7 +138,7 @@
 		    </dict>
 		</dict>
         </dict>
-		
+	</dict>	
 	</array>
 </dict>
 </plist>
