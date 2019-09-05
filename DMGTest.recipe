@@ -113,20 +113,6 @@
 		    		<dict>
 				<key>app_path</key>
 				<string>%app_path%</string>
-            <dict>
-                <key>pkg_request</key>
-                <dict>
-                    <key>pkgname</key>
-                    <string>Cisco AnyConnect Secure Mobility Client</string>
-                    <key>version</key>
-                    <string>4.6.04056</string>
-                    <key>id</key>
-                    <string>com.cisco.Cisco-AnyConnect-Secure-Mobility-Client</string>
-                    <key>options</key>
-                    <string>purge_ds_store</string>
-                    <key>chown</key>
-		    </dict>
-		</dict>
         </dict>
    </dict>	
   </array>
