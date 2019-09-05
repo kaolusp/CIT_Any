@@ -107,13 +107,13 @@
 		</dict>
 		
 	    <dict>
-            <key>Processor</key>
-	    <string>AppPkgCreator</string>
-			<key>Arguments</key>
-		    		<dict>
+		<key>Arguments</key>
+			<dict>
 				<key>app_path</key>
-				<string>%pkg%.app</string>
-        </dict>
+				<string>%PKG%/Cisco AnyConnect Secure Mobility Client.app</string>
+			</dict>
+            			<key>Processor</key>
+	    			<string>AppPkgCreator</string>
    </dict>	
   </array>
 </dict>
