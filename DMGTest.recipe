@@ -112,7 +112,7 @@
 			<key>Arguments</key>
 		    		<dict>
 				<key>app_path</key>
-				<string>%pkg%/.app</string>
+				<string>%pkg%.app</string>
         </dict>
    </dict>	
   </array>
