@@ -80,7 +80,7 @@
 
 				<key>app_path</key>
 
-				<string>%PKG%/Audacity.app</string>
+				<string>%PKG%/.app</string>
 
 			</dict>
 
