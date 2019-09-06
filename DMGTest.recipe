@@ -74,8 +74,11 @@
 		<dict>
 		   <key>Processor</key>
 		   <string>PkgCopier</string>
+		   <key>Arguments</key>
+		<dict>
 		   <key>Source_pkg</key>
 		   <string>*.pkg</string>
+		</dict>  
 		</dict>
 		<dict>
 
