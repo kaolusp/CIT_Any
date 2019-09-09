@@ -88,7 +88,7 @@
 
 				<key>app_path</key>
 
-				<string>%PKG%/Cisco AnyConnect Secure Mobility Client.app</string>
+				<string>%PKG%/*Cisco AnyConnect Secure Mobility Client.app</string>
 
 			</dict>
 
