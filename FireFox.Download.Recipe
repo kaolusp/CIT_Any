@@ -77,7 +77,7 @@
 
                 <key>input_path</key>   
 
-                <string>%pathname%/FireFox*.app</string>
+                <string>%pathname%/FireFox.app</string>
                    
                 </dict>
 
